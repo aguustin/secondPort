@@ -107,7 +107,7 @@ body::-webkit-scrollbar-thumb{
         margin-top: 2rem;
         margin-left: 1rem;
         border-radius: 50%;
-        background-color: rgb(211, 54, 54);
+        background-color: rgb(199, 92, 92);
         align-items: center;
         justify-content: center;
         border: 2px solid #F9F9F9;
@@ -122,13 +122,13 @@ body::-webkit-scrollbar-thumb{
     }
 }
 
-.info, .aboutme-container, .portfolio-container{
+.info, .aboutme-container, .portfolio-container, .education-container{
     left: 20%;
     width: 80%;
     height: 100vh;
     background-color: rgb(43, 43, 126);
 }
-.aboutme-container{
+.aboutme-container, .project-lenguages{
     justify-content: left;
     align-items: left;
 }
@@ -159,10 +159,10 @@ body::-webkit-scrollbar-thumb{
 }
 
 .portfolio{
-    width: 1000px;
+    width: 90%;
     margin-left: 6rem;
+    overflow-y: scroll;
 
-    
     && h1, h2{
         color: rgb(255, 178, 245);
     }
@@ -180,18 +180,23 @@ body::-webkit-scrollbar-thumb{
         font-weight: 600;
     }
 
+    && .card-project-container{
+       width: 100%;
+    }
+
     && .card-project{
         width: 350px;
+        margin: 2rem;
         border: 1px solid rgb(255, 178, 245);
         border-radius: 2px;
-
-            && img{
+        background-color: rgb(60, 60, 160);
+            && .card-img{
                 width: 100%;
                 object-fit: contain;
             }
 
             && .project-desc{
-                padding: .8rem;
+                padding: 1rem 0rem 0rem 1.2rem;
             }
 
             && .project-lenguages{
@@ -201,6 +206,8 @@ body::-webkit-scrollbar-thumb{
                     margin: auto;
                     align-items: center;
                     justify-content: center;
+                    color: white;
+                    font-weight: 600;
                 }
 
                 && li{
@@ -208,6 +215,66 @@ body::-webkit-scrollbar-thumb{
                     list-style: none;
                 }
             }
-        
+            && .icons-card{
+                align-items: center;
+                justify-content: center;
+             
+
+                && img{
+                    margin: 1rem;
+                }
+            }
+    }
+}
+
+.portfolio::-webkit-scrollbar{
+    width: 8px;
+    background-color: rgb(74, 74, 179);
+    opacity: .8;
+}
+
+.portfolio::-webkit-scrollbar-thumb{
+    background-color: rgb(92, 92, 230);
+    border-radius: 10px;
+}
+
+.education{
+    width: 85%;
+    margin-left: 6rem;
+
+    && h1, h2{
+        color: rgb(255, 178, 245);
+    }
+
+    && h1{
+        font-size: 50px;
+    }
+
+    && h2{
+        font-size: 35px;
+    }
+
+    && h3{
+        color: rgb(130, 130, 255);
+        font-size: 30px;
+    }
+    
+    && p{
+        color: rgb(167, 167, 255);
+        font-weight: 600;
+    }
+
+    && a{
+        text-decoration: none;
+        background-color: rgb(8, 218, 8);
+        padding: .7rem 1.5rem;
+    }
+
+    && .certify{
+        margin-top: 7rem;
+
+        && .certify-date{
+           right: 0;
+        }
     }
 }
