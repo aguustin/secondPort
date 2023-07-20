@@ -273,8 +273,13 @@ body::-webkit-scrollbar-thumb{
     && .certify{
         margin-top: 7rem;
 
-        && .certify-date{
-           right: 0;
-        }
+    }
+    && .certify-date{
+       right: 0;
+    
+       && label{
+        color: rgb(167, 167, 255);
+        font-weight: 600;
+       }
     }
 }
