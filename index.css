@@ -58,9 +58,10 @@ body::-webkit-scrollbar-thumb{
 && .mail{
     background-color: transparent;
     border: none;
-    color: rgb(8, 218, 8);
+    color: rgb(255, 167, 255);
     height: 0px;
     margin-top: -1px;
+    margin-right: 14rem;
     font-size: 20px;
     font-weight: 600;
 }
@@ -81,7 +82,7 @@ body::-webkit-scrollbar-thumb{
     && #lastname{
         margin-left: 20px;
         font-size: 72px;
-        color: rgb(8, 218, 8);
+        color: rgb(255, 167, 255);
     }
 
     && .welcome{
@@ -93,7 +94,7 @@ body::-webkit-scrollbar-thumb{
         font-size: 18px;
         border: none;
         border-radius: 7px;
-        background-color: rgb(8, 218, 8);
+        background-color: rgb(255, 167, 255);
         font-weight: 600;
         box-shadow: 0px 6px 1px 7px rgba(130,130,255,0.44);
         -webkit-box-shadow: 0px 6px 1px 7px rgba(130,130,255,0.44);
@@ -127,11 +128,12 @@ body::-webkit-scrollbar-thumb{
     width: 80%;
     height: 100vh;
     background-color: rgb(43, 43, 126);
+    border-bottom: 1px solid rgb(255, 167, 255);
 }
 
-.aboutme-container, .project-lenguages{
+.aboutme-container, .project-lenguages, .info, .aboutme-container, .portfolio-container, .education-container, .skills-container, .contact-container{
     justify-content: left;
-    align-items: left;
+    align-items: center;
 }
 
 .aboutme{
@@ -163,6 +165,7 @@ body::-webkit-scrollbar-thumb{
     width: 90%;
     margin-left: 6rem;
     overflow-y: scroll;
+    height: 850px;
 
     && h1, h2{
         color: rgb(255, 178, 245);
@@ -324,7 +327,6 @@ body::-webkit-scrollbar-thumb{
 .contact{
     width: 85%;
     margin-bottom: 3rem;
-    margin-left: 6rem;
 
     && h1{
         font-size: 50px;
@@ -346,7 +348,6 @@ body::-webkit-scrollbar-thumb{
     && label{
         margin-left: .8rem;
         color: rgb(252, 242, 242);
-        font-weight: 600;
     }
 
     && b{
@@ -371,5 +372,11 @@ body::-webkit-scrollbar-thumb{
     && label{
         color: rgb(252, 242, 242);
         font-weight: 600;
+    }
+
+    && h3{
+        font-size: 19px;
+        margin-top: 3rem;
+        color: rgb(255, 131, 238);
     }
 }
