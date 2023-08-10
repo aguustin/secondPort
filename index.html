@@ -16,35 +16,35 @@
                    <div class="shortcuts mx-auto">
                         <img src="prueba.jpg" alt=""></img>
                         <div class="mx-auto mt-3">
-                            <button>Agustin</button>
-                            <button>About me</button>
-                            <button>Portfolio</button>
-                            <button>Education</button>
-                            <button>Skills</button>
-                            <button>Contact</button>
+                            <button id="agustinS" >Agustin</button>
+                            <button id="aboutmeS" >About me</button>
+                            <button id="portfolioS" >Portfolio</button>
+                            <button id="educationS" >Education</button>
+                            <button id="skillsS" >Skills</button>
+                            <button id="contactS" >Contact</button>
                         </div>
                    </div>
                 </div>
-                <div class="info position-relative d-flex">
-                    <div class="arrow position-absolute"></div>
+                <div id="info" class="info position-relative d-flex">
+                    <div class="arrow position-fixed"></div>
                     <div class="agustin">
                         <div class="m-3 d-flex">
                             <h1 id="name">AGUSTIN</h1>
                             <h1 id="lastname">MOLE</h1>
                         </div>
-                        <p class="welcome m-3">WELCOME TO MY PORTFOLIO AS A JR DEVELOPER</p>
+                        <p class="welcome m-3">WELCOME TO MY PORTFOLIO AS A WEB DEVELOPER</p>
                         <div class="d-flex m-3">
-                            <p class="contact">If you want to contact me you can send me a message to</p><button class="mail">aguustin.molee@gmail.com</button>
+                            <p class="contact">If you want to contact me you can send me a message to</p><a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank" class="mail">aguustin.molee@gmail.com</a>
                         </div>
-                        <button class="download-cv m-3">Download my CV</button>
+                        <a href="./Manual-de-Usuario--Sistema-de-Carga-de-Planos.pdf" download><button class="download-cv m-3" type="button">Download my CV</button></a>
                         <div class="social-networks d-flex">
-                            <div><a><img src="instagram.png" alt=""></img></a></div>
-                            <div><a><img src="facebook.png" alt=""></img></a></div>
-                            <div><a><img src="linkedin.png" alt=""></img></a></div>
+                            <div><a href="https://www.instagram.com/agustinmolee/?next=%2F"><img src="instagram.png" alt=""></img></a></div>
+                            <div><a href="https://www.facebook.com/agustin.mole.9/"><img src="facebook.png" alt=""></img></a></div>
+                            <div><a href="https://www.linkedin.com/in/agust%C3%ADn-mol%C3%A9-barolo-b042141b1/"><img src="linkedin.png" alt=""></img></a></div>
                         </div>
                     </div>
                 </div>
-                <div class="aboutme-container position-relative d-flex">
+                <div id="aboutme-container" class="aboutme-container position-relative d-flex">
                     <div class="aboutme">
                         <h1>ABOUT ME</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -58,7 +58,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="portfolio-container position-relative d-flex">
+                <div id="portfolio-container" class="portfolio-container position-relative d-flex">
                     <div class="portfolio">
                         <h1>PORTFOLIO</h1>
                         <div class="card-project-container d-flex flex-wrap">
@@ -170,7 +170,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="education-container position-relative d-flex">
+                <div id="education-container" class="education-container position-relative d-flex">
                     <div class="education">
                         <div>
                             <h1>EDUCATION</h1>
@@ -178,37 +178,37 @@
                         <div class="certify">
                             <div class="d-flex position-relative">
                                 <div>
-                                    <h2>CONVIERTETE EN DESARROLLADOR FULLSTACK - UDEMY</h2>
-                                    <h3>DESARROLLO CON HTML, CSS, JAVASCRIPT, PHP Y MSYQL</h3>
-                                    <p>Curso de 103 horas</p>
+                                    <h2>FULLSTACK DEVELOPER - UDEMY</h2>
+                                    <h3>DEVELOPED WITH HTML, CSS, JAVASCRIPT, PHP Y MSYQL</h3>
+                                    <p>Course of 103 hours</p>
                                     <a href="https://www.coderhouse.com/certificados/629194325a1d3c001924e77e">Certificado</a>
                                 </div>
                                 <div class="certify-date position-absolute">
-                                    <label>Diciembre 16 de 2021</label>
+                                    <label>Dicember 16 of 2021</label>
                                 </div>
                             </div>
                         </div>
                         <div class="certify"></div>
                             <div class="d-flex position-relative">
                                 <div>
-                                    <h2>Desarrollador REACT JS - CODERHOUSE</h2>
+                                    <h2>REACT JS - CODERHOUSE DEVELOPER</h2>
                                     <h3>REACTJS, FIREBASE Y TYPESCRIPT</h3>
-                                    <p>Curso de 28 horas</p>
+                                    <p>Course of 28 hours</p>
                                     <a href="https://www.udemy.com/certificate/UC-09b65a8b-e7b2-47af-824e-f0d66d218253/">Certificado</a>
                                 </div>
                                 <div class="certify-date position-absolute">
-                                    <label>Abril 27 de 2022</label>
+                                    <label>April 27 of 2022</label>
                                 </div>
                             </div>
                         </div>    
                     </div>
-                    <div class="skills-container position-relative d-flex">
+                    <div id="skills-container" class="skills-container position-relative d-flex">
                         <div>
                             <div class="skills">
                                 <h1>SKILLS</h1>
                             </div>
                             <div class="skills-divs">
-                                <h2>LENGUAJES DE PROGRAMACION</h2>
+                                <h2>PROGRAMATION LENGUAGES</h2>
                                 <div class="d-flex align-items-center m-3">
                                     <img class="ml-3 mr-1" src="html.png"></img><label>HTML</label>
                                     <img class="ml-3 mr-1" src="css.png"></img><label>CSS</label>
@@ -217,31 +217,31 @@
                                 </div>
                             </div>
                             <div class="skills-divs">
-                                <h2>FRAMEWORKS Y LIBRERIAS</h2>
+                                <h2>FRAMEWORKS Y LIBRARIES</h2>
                                 <div class="d-flex  align-items-center m-3">
                                     <img class="ml-3 mr-1" src="reactjs.png"></img><label>ReactJS</label>
                                     <img class="ml-3 mr-1" src="nodejs.png"></img><label>NodeJS</label>
-                                    <img class="ml-3 mr-1" src="html.png"></img><label>ExpressJS</label>
+                                    <img class="ml-3 mr-1" src="expressjs.png"></img><label>ExpressJS</label>
                                 </div>
                             </div>
                             <div class="skills-divs">
-                                <h2>BASES DE DATOS</h2>
+                                <h2>DATABASES</h2>
                                 <div class="d-flex  align-items-center m-3">
-                                    <img class="ml-3 mr-1" src="html.png"></img><label>MongoDB</label>
+                                    <img class="ml-3 mr-1" src="mongodb.png"></img><label>MongoDB</label>
                                     <img class="ml-3 mr-1" src="mysql.png"></img><label>MySQL</label>
-                                    <img class="ml-3 mr-1" src="html.png"></img><label>Firebase</label>
+                                    <img class="ml-3 mr-1" src="firebase.png"></img><label>Firebase</label>
                                 </div>
                             </div>
                             <div class="skills-divs">
-                                <h2>SOFTWARE Y HERRAMIENTAS</h2>
+                                <h2>SOFTWARE AND TOOLS</h2>
                                 <div class="d-flex align-items-center m-3">
                                     <img class="ml-3 mr-1" src="visual-studio.png"></img><label>Visual studio code</label>
                                     <img class="ml-3 mr-1" src="githubB.png"></img><label>Github</label>
-                                    <img class="ml-3 mr-1" src="html.png"></img><label>Postman</label>
+                                    <img class="ml-3 mr-1" src="postman.png"></img><label>Postman</label>
                                 </div>
                             </div>
                             <div class="skills-divs">
-                                <h2>ESTOY APRENDIENDO</h2>
+                                <h2>IM LEARNING</h2>
                                 <div class="align-items-center m-3 ml-2">
                                     <div class="d-flex">
                                         <img class="mr-2" src="check.png"></img><li><label>React Native</label></li>
@@ -253,7 +253,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="contact-container position-relative d-flex">
+                    <div id="contact-container" class="contact-container position-relative d-flex">
                         <div>
                             <div class="contact">
                                 <h1>CONTACT ME!</h1>
@@ -288,6 +288,50 @@
                 </div>
             </div>
         </div>
+
+
+
+        <script>
+            // Get references to the buttons and sections
+            const section1Button = document.getElementById('agustinS');
+            const section2Button = document.getElementById('aboutmeS');
+            const section3Button = document.getElementById('portfolioS');
+            const section4Button = document.getElementById('educationS');
+            const section5Button = document.getElementById('skillsS');
+            const section6Button = document.getElementById('contactS');
+          
+            const section1 = document.getElementById('info');
+            const section2 = document.getElementById('aboutme-container');
+            const section3 = document.getElementById('portfolio-container');
+            const section4 = document.getElementById('education-container');
+            const section5 = document.getElementById('skills-container');
+            const section6 = document.getElementById('contact-container');
+          
+            // Add event listeners to the buttons
+            section1Button.addEventListener('click', () => {
+              section1.scrollIntoView({ behavior: 'smooth' });
+            });
+          
+            section2Button.addEventListener('click', () => {
+              section2.scrollIntoView({ behavior: 'smooth' });
+            });
+          
+            section3Button.addEventListener('click', () => {
+              section3.scrollIntoView({ behavior: 'smooth' });
+            });
+            section4Button.addEventListener('click', () => {
+              section4.scrollIntoView({ behavior: 'smooth' });
+            });
+          
+            section5Button.addEventListener('click', () => {
+              section5.scrollIntoView({ behavior: 'smooth' });
+            });
+          
+            section6Button.addEventListener('click', () => {
+              section6.scrollIntoView({ behavior: 'smooth' });
+            });
+          </script>
+
     </body>
 </html>
 <!--https://www.coderhouse.com/certificados/629194325a1d3c001924e77e couderhouse
