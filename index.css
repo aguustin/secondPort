@@ -19,28 +19,27 @@ body::-webkit-scrollbar-thumb{
 
 .shortcuts-container{
     height: 100vh;
-    width: 400px;
+    width: 20vw;
     background-color: rgb(60, 60, 151);
     align-items: center;
     justify-content: center;
     z-index: 2;
+
+    && .shortcuts img{
+        width: 16vw;
+    }
+
     && .shortcuts > div{
         width: 100px;
 
         && button{
             width: 100%;
-            margin-top: 20px;
+            margin-top: 13px;
             background-color: transparent;
             border-style: none;
             color: rgb(130, 130, 255);
             font-size: 18px;
             font-weight: 600;
-        }
-
-        && button:hover{
-            color:rgb(255, 167, 255);
-            transform: translateY(-5px);
-            transition: all .5s;
         }
     }
 }
@@ -49,8 +48,7 @@ body::-webkit-scrollbar-thumb{
     border-left: 50px solid rgb(60, 60, 151);
     border-top: 20px solid transparent;
     border-bottom: 20px solid transparent;
-    top: 47vh;
-    left: 10vw; 
+    top: 47vh; 
     z-index: 2;
 }
 
@@ -67,7 +65,8 @@ body::-webkit-scrollbar-thumb{
     border: none;
     color: rgb(255, 167, 255);
     height: 0px;
-    margin-left: 5px;
+    margin-top: -1px;
+    margin-right: 14rem;
     font-size: 20px;
     font-weight: 600;
 }
@@ -131,7 +130,7 @@ body::-webkit-scrollbar-thumb{
 
 .info, .aboutme-container, .portfolio-container, .education-container, .skills-container, .contact-container{
     left: 20%;
-    width: 80%;
+    width: 79.5vw;
     height: 100vh;
     background-color: rgb(43, 43, 126);
     border-bottom: 1px solid rgb(255, 167, 255);
@@ -171,7 +170,7 @@ body::-webkit-scrollbar-thumb{
     width: 90%;
     margin-left: 6rem;
     overflow-y: scroll;
-    height: 850px;
+    height: 90vh;
 
     && h1, h2{
         color: rgb(255, 178, 245);
@@ -276,9 +275,7 @@ body::-webkit-scrollbar-thumb{
 
     && a{
         text-decoration: none;
-        background-color: rgb(130, 130, 255);
-        color:black;
-        font-weight: 600;
+        background-color: rgb(8, 218, 8);
         padding: .7rem 1.5rem;
     }
 
@@ -337,6 +334,7 @@ body::-webkit-scrollbar-thumb{
     margin-bottom: 3rem;
 
     && h1{
+        margin-left: 6rem;
         font-size: 50px;
         color: rgb(252, 242, 242);
     }
