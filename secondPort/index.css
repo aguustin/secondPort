@@ -1,0 +1,500 @@
+body{
+    overflow-y: scroll;
+}
+
+body::-webkit-scrollbar{
+    width: 8px;
+    background-color: rgb(74, 74, 179);
+    opacity: .8;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: rgb(92, 92, 230);
+    border-radius: 10px;
+}
+
+.father-div{
+    border-bottom: 1px solid rgb(74, 74, 179);
+}
+
+.shortcuts-container{
+    display: flex;
+    height: 100vh;
+    width: 20vw;
+    background-color: rgb(60, 60, 151);
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+#more{
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    display: none;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.shortcuts img{
+    width: 16vw;
+}
+
+.shortcuts > div{
+    width: 100px;
+}
+
+.shortcuts > div button{
+    width: 100%;
+    margin-top: 13px;
+    background-color: transparent;
+    border-style: none;
+    color: rgb(130, 130, 255);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.info{
+    align-items: center;
+}
+
+.contact{
+    font-size: 20px;
+}
+
+.mail{
+    background-color: transparent;
+    border: none;
+    color: rgb(255, 167, 255);
+    height: 0px;
+    margin-right: 14rem;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.agustin{
+    margin-left: 6rem;
+}
+
+.agustin p{
+    color: rgb(130, 130, 255);
+    font-size: 600;
+}
+
+#name{
+    font-size: 72px;
+    color: rgb(130, 130, 255);
+}
+
+#lastname{
+    margin-left: 20px;
+    font-size: 72px;
+    color: rgb(255, 167, 255);
+}
+
+.welcome{
+    font-size: 25px;
+}
+
+.download-cv{
+    padding: .7rem;
+    font-size: 18px;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(255, 167, 255);
+    font-weight: 600;
+    box-shadow: 0px 6px 1px 7px rgba(130,130,255,0.44);
+    -webkit-box-shadow: 0px 6px 1px 7px rgba(130,130,255,0.44);
+    -moz-box-shadow: 0px 6px 1px 7px rgba(130,130,255,0.44);
+}
+
+.social-networks > div{
+    display: flex;
+    height: 60px;
+    width: 60px;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    border-radius: 50%;
+    background-color: rgb(199, 92, 92);
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #F9F9F9;
+}
+
+.social-networks > div a{
+    border-radius: 50%;
+}
+
+.social-networks > div img{
+    width: 32px;
+}
+
+.info, .aboutme-container, .portfolio-container, .education-container, .skills-container, .contact-container{
+    left: 20%;
+    width: 79.5vw;
+    height: 100vh;
+    background-color: rgb(43, 43, 126);
+    border-bottom: 1px solid rgb(255, 167, 255);
+}
+
+.aboutme-container, .project-lenguages, .info, .portfolio-container, .education-container, .skills-container, .contact-container{
+    justify-content: left;
+    align-items: center;
+}
+
+.aboutme{
+    width: 1000px;
+    margin-left: 6rem;
+}
+
+.aboutme h1, h2{
+    color: rgb(255, 178, 245);
+    margin-bottom: 3rem;
+}
+
+.aboutme h1{
+    font-size: 50px;
+}
+
+.aboutme h2{
+    font-size: 25px;
+}
+
+.aboutme p{
+    color: rgb(130, 130, 255);
+    margin-bottom: 3rem;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.portfolio{
+    width: 90%;
+    margin-left: 6rem;
+    overflow-y: scroll;
+    height: 90vh;
+}
+
+.portfolio h1, h2{
+    color: rgb(255, 178, 245);
+}
+
+.portfolio h1{
+    font-size: 50px;
+}
+
+.portfolio h2{
+    font-size: 20px;
+}
+
+.portfolio p{
+    color: rgb(130, 130, 255);
+    font-weight: 600;
+}
+
+ .card-project-container{
+   width: 100%;
+}
+
+.card-project{
+    width: 350px;
+    margin: 2rem;
+    border: 1px solid rgb(255, 178, 245);
+    border-radius: 2px;
+    background-color: rgb(60, 60, 160);
+}
+
+.card-img{
+   width: 100%;
+   object-fit: contain;
+}
+
+.project-desc{
+   padding: 1rem;
+}
+
+.project-lenguages{
+   padding: 0rem .3rem; 
+}
+
+.e{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+}
+
+.project-lenguages li{
+    margin: .3rem;
+    list-style: none;
+}
+
+.icons-card{
+   align-items: center;
+   justify-content: center;
+
+
+}
+.icons-card img{
+   margin: 1rem;
+}
+
+.portfolio::-webkit-scrollbar{
+    width: 8px;
+    background-color: rgb(74, 74, 179);
+    opacity: .8;
+}
+
+.portfolio::-webkit-scrollbar-thumb{
+    background-color: rgb(92, 92, 230);
+    border-radius: 10px;
+}
+
+.education{
+    width: 85%;
+    margin-left: 6rem;
+}
+
+.education h1, h2{
+    color: rgb(255, 178, 245);
+}
+
+.education h1{
+    font-size: 50px;
+}
+
+.education h2{
+    font-size: 35px;
+}
+
+.education h3{
+    color: rgb(130, 130, 255);
+    font-size: 30px;
+}
+
+.education p{
+    color: rgb(167, 167, 255);
+    font-weight: 600;
+}
+
+.education a{
+    text-decoration: none;
+    background-color: rgb(255, 167, 255);
+    color:black;
+    font-weight: 600;
+    padding: .7rem 1.5rem;
+}
+
+.education a:hover{
+    background-color: rgb(253, 117, 253);
+    border-radius: 15px;
+    transition: all .5s;
+}
+
+.certify{
+    margin-top: 7rem;
+}
+ .certify-date{
+   right: 0;
+}
+
+.certify-date label{
+ color: rgb(167, 167, 255);
+ font-weight: 600;
+}
+
+.skills{
+    width: 90%;
+    margin-left: 6rem;
+    margin-bottom: 3rem;  
+}
+
+.skills h1{
+    font-size: 50px;
+    color: rgb(255, 178, 245);
+}
+
+.skills-divs{
+    margin-left: 6rem;
+}
+
+.skills-divs h2{
+    font-size: 30px;
+    color: rgb(255, 131, 238);
+}
+
+.skills-divs img{
+    height: 24px;
+    width: 24px;
+    margin-top: -5px;
+}
+
+.skills-divs label{
+    color: rgb(252, 242, 242);
+    font-weight: 600;
+}
+
+.skills-divs li{
+    list-style: none;
+}
+
+.contact{
+    width: 85%;
+}
+
+.contact h1{
+    margin-left: 6rem;
+    font-size: 50px;
+    color: rgb(252, 242, 242);
+}
+
+.contact-divs{
+    margin-bottom: 1.5rem;
+    margin-left: 6rem;
+    font-size: 18px;  
+}
+
+.contact-divs img{
+    height: 16px;
+    width: 16px;
+    margin-top: 5px;
+}
+
+.contact-divs label{
+    margin-left: .8rem;
+    color: rgb(252, 242, 242);
+}
+
+.contact-divs b{
+    margin-left: .8rem;
+    color: rgb(255, 131, 238);
+}
+
+.contact-divs a{
+    margin-left: .8rem;
+    color: rgb(255, 131, 238);
+}
+
+.site{
+    margin-left: 6rem;
+}
+
+.site img{
+    margin-top: -5px;
+}
+
+.site label{
+    color: rgb(252, 242, 242);
+    font-weight: 600;
+}
+
+.site h3{
+    font-size: 19px;
+    margin-top: 3rem;
+    color: rgb(255, 131, 238);
+}
+
+@media screen and (max-width: 1075px) {
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .shortcuts-container{
+        max-height: 55vh;
+        width: 100%;
+        display: none;
+        align-items: center;
+    }
+
+    .info, .aboutme-container, .portfolio-container, .education-container, .skills-container, .contact-container{
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .info{
+        justify-content: center;
+        font-size: 2.1vw;
+    }
+
+    .agustin{
+        margin: auto;
+    }
+
+    #name, #lastname {
+        font-size: 50px;
+    }
+
+    #aboutme-text{
+        font-size: 15px;
+    }
+    
+    #more{
+        display: block;
+    }
+
+    .aboutme{
+        margin-left: 2vw;
+    }
+
+    .portfolio-container{
+        text-align: center;
+    }
+
+    .portfolio{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .card-project{
+        margin: auto;
+        margin-top: 5vh;
+        min-height: 612.33px;
+    }
+
+    .certify-date{
+       bottom:3.5vh;
+    }
+
+    .education{
+        margin-left: 2vw;
+    }
+
+    .skills-container > div{
+        margin: auto;
+    }
+
+    .skills{
+        margin-left: 0;
+    }
+
+    .skills-divs{
+        margin-left: 0;
+    }
+  
+}
+
+@media screen and (max-width: 600px) {
+
+    .agustin{
+        margin-left: 2vw;
+    }
+
+    .certify h2{
+        font-size: 30px;
+    }
+
+    .certify h3{
+        font-size: 25px;
+    }
+
+    .skills{
+        margin: auto;
+    }
+
+    .skills-divs{
+        margin: 0 auto;
+    }
+}
